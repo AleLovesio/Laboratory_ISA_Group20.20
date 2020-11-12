@@ -1,0 +1,88 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : myiir_adv
+Version: O-2018.06-SP4
+Date   : Tue Nov  3 17:54:42 2020
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: int_reg_1d_reg[1]
+              (rising edge-triggered flip-flop clocked by MY_CLK)
+  Endpoint: int_mul_F0_d_reg[10]
+            (rising edge-triggered flip-flop clocked by MY_CLK)
+  Path Group: MY_CLK
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  myiir_adv          5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock MY_CLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  int_reg_1d_reg[1]/CK (DFFR_X1)                          0.00       0.00 r
+  int_reg_1d_reg[1]/Q (DFFR_X1)                           0.10       0.10 r
+  U487/Z (BUF_X1)                                         0.04       0.13 r
+  mul_F0/INA[1] (multiplier_Nb11_3)                       0.00       0.13 r
+  mul_F0/mult_16/a[1] (multiplier_Nb11_3_DW_mult_tc_0)
+                                                          0.00       0.13 r
+  mul_F0/mult_16/U312/Z (BUF_X1)                          0.11       0.25 r
+  mul_F0/mult_16/U484/Z (XOR2_X1)                         0.10       0.35 r
+  mul_F0/mult_16/U311/ZN (INV_X1)                         0.06       0.41 f
+  mul_F0/mult_16/U479/ZN (NAND2_X1)                       0.10       0.51 r
+  mul_F0/mult_16/U369/ZN (OAI22_X1)                       0.06       0.57 f
+  mul_F0/mult_16/U75/S (HA_X1)                            0.08       0.65 f
+  mul_F0/mult_16/U476/ZN (AOI222_X1)                      0.11       0.76 r
+  mul_F0/mult_16/U306/ZN (INV_X1)                         0.03       0.79 f
+  mul_F0/mult_16/U475/ZN (AOI222_X1)                      0.09       0.88 r
+  mul_F0/mult_16/U305/ZN (INV_X1)                         0.03       0.91 f
+  mul_F0/mult_16/U474/ZN (AOI222_X1)                      0.09       1.00 r
+  mul_F0/mult_16/U302/ZN (INV_X1)                         0.03       1.03 f
+  mul_F0/mult_16/U473/ZN (AOI222_X1)                      0.09       1.12 r
+  mul_F0/mult_16/U301/ZN (INV_X1)                         0.03       1.15 f
+  mul_F0/mult_16/U472/ZN (AOI222_X1)                      0.09       1.24 r
+  mul_F0/mult_16/U299/ZN (INV_X1)                         0.03       1.27 f
+  mul_F0/mult_16/U471/ZN (AOI222_X1)                      0.09       1.36 r
+  mul_F0/mult_16/U298/ZN (INV_X1)                         0.03       1.39 f
+  mul_F0/mult_16/U470/ZN (AOI222_X1)                      0.09       1.48 r
+  mul_F0/mult_16/U300/ZN (INV_X1)                         0.03       1.51 f
+  mul_F0/mult_16/U15/CO (FA_X1)                           0.09       1.60 f
+  mul_F0/mult_16/U14/CO (FA_X1)                           0.09       1.69 f
+  mul_F0/mult_16/U13/CO (FA_X1)                           0.09       1.78 f
+  mul_F0/mult_16/U12/CO (FA_X1)                           0.09       1.87 f
+  mul_F0/mult_16/U11/CO (FA_X1)                           0.09       1.96 f
+  mul_F0/mult_16/U10/CO (FA_X1)                           0.09       2.05 f
+  mul_F0/mult_16/U9/CO (FA_X1)                            0.09       2.14 f
+  mul_F0/mult_16/U8/CO (FA_X1)                            0.09       2.23 f
+  mul_F0/mult_16/U7/CO (FA_X1)                            0.09       2.32 f
+  mul_F0/mult_16/U6/CO (FA_X1)                            0.09       2.41 f
+  mul_F0/mult_16/U5/S (FA_X1)                             0.13       2.54 r
+  mul_F0/mult_16/product[20] (multiplier_Nb11_3_DW_mult_tc_0)
+                                                          0.00       2.54 r
+  mul_F0/OUTPUT[20] (multiplier_Nb11_3)                   0.00       2.54 r
+  U436/ZN (INV_X1)                                        0.02       2.56 f
+  U435/ZN (OAI22_X1)                                      0.05       2.62 r
+  int_mul_F0_d_reg[10]/D (DFFR_X1)                        0.01       2.62 r
+  data arrival time                                                  2.62
+
+  clock MY_CLK (rise edge)                               12.00      12.00
+  clock network delay (ideal)                             0.00      12.00
+  int_mul_F0_d_reg[10]/CK (DFFR_X1)                       0.00      12.00 r
+  library setup time                                     -0.04      11.96
+  data required time                                                11.96
+  --------------------------------------------------------------------------
+  data required time                                                11.96
+  data arrival time                                                 -2.62
+  --------------------------------------------------------------------------
+  slack (MET)                                                        9.34
+
+
+1

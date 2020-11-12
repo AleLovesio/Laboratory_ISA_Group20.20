@@ -1,0 +1,53 @@
+Running PRESTO HDLC
+
+Inferred memory devices in process
+	in routine myiir line 42 in file
+		'../src/myiir.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     B2_reg_reg      | Flip-flop |  10   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     IN_reg_reg      | Flip-flop |  10   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     A1_reg_reg      | Flip-flop |  10   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     A2_reg_reg      | Flip-flop |  10   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     B0_reg_reg      | Flip-flop |  10   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     B1_reg_reg      | Flip-flop |  10   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine myiir line 66 in file
+		'../src/myiir.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|   int_reg_1d_reg    | Flip-flop |  10   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine myiir line 77 in file
+		'../src/myiir.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|   int_reg_2d_reg    | Flip-flop |  10   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine myiir line 103 in file
+		'../src/myiir.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      VOUT_reg       | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|      DOUT_reg       | Flip-flop |  14   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Elaborated 1 design.
+Current design is now 'myiir'.
+Information: Building the design 'adder' instantiated from design 'myiir' with
+	the parameters "Nb=10". (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'multiplier' instantiated from design 'myiir' with
+	the parameters "Nb=10". (HDL-193)
+Presto compilation completed successfully.
+1
