@@ -1,0 +1,26 @@
+analyze -f vhdl -lib WORK {../src/packfp_packfp.vhd ../src/unpackfp_unpackfp.vhd ../src/fpnormalize_fpnormalize.vhd ../src/fpround_fpround.vhd ../src/fpmul_stage1_struct.vhd ../src/fpmul_stage2_struct.vhd ../src/fpmul_stage3_struct.vhd ../src/fpmul_stage4_struct.vhd} 
+analyze -f vhdl -lib WORK ../src/fpmul_pipeline.vhd
+
+set power_preserve_rtl_hier_names true
+elaborate FPmul -arch pipeline -lib WORK > ./reports/elaborate_CompUltra.txt
+uniquify
+link
+
+create_clock -name MY_CLK -period 1.45 clk
+set_dont_touch_network MY_CLK
+set_clock_uncertainty 0.07 [get_clocks MY_CLK]
+set_input_delay 0.5 -max -clock MY_CLK [remove_from_collection [all_inputs] clk]
+set_output_delay 0.5 -max -clock MY_CLK [all_outputs]
+set OLOAD [load_of NangateOpenCellLibrary/BUF_X4/A]
+set_load $OLOAD [all_outputs]
+
+ungroup -all -flatten
+compile_ultra > ./reports/compile_CompUltra.txt
+report_timing > ./reports/timing_CompUltra.txt
+report_area > ./reports/area_CompUltra.txt
+
+change_names -hierarchy -rules verilog 
+write_sdf ../netlist/mult_CompUltra.sdf 
+write -f verilog -hierarchy -output ../netlist/mult_CompUltra.v
+write_sdc ../netlist/mult_CompUltra.sdc
+write -hierarchy -format ddc -output ./mult_CompUltra.ddc

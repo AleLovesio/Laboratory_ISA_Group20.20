@@ -1,0 +1,182 @@
+Information: Performing power optimization. (PWR-850)
+Alib files are up-to-date.
+Information: Sequential output inversion is enabled.  SVF file must be used for formal verification. (OPT-1208)
+
+Information: There are 46 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+
+  Simplifying Design 'FPmul'
+
+Loaded alib file './alib-52/NangateOpenCellLibrary_typical_ecsm_nowlm.db.alib'
+Information: Ungrouping 0 of 1 hierarchies before Pass 1 (OPT-775)
+Information: State dependent leakage is now switched from on to off.
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'FPmul'
+ Implement Synthetic for 'FPmul'.
+Information: The register 'I3/SIG_out_round_reg[2]' is a constant and will be removed. (OPT-1206)
+Information: Added key list 'DesignWare' to design 'FPmul'. (DDB-72)
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+
+  Beginning Mapping Optimizations  (Ultra High effort)
+  -------------------------------
+  Mapping Optimization (Phase 1)
+
+  Beginning Constant Register Removal
+  -----------------------------------
+
+  Beginning Global Optimizations
+  ------------------------------
+  Numerical Synthesis (Phase 1)
+  Numerical Synthesis (Phase 2)
+  Global Optimization (Phase 1)
+  Global Optimization (Phase 2)
+  Global Optimization (Phase 3)
+  Global Optimization (Phase 4)
+  Global Optimization (Phase 5)
+  Global Optimization (Phase 6)
+  Global Optimization (Phase 7)
+  Global Optimization (Phase 8)
+  Global Optimization (Phase 9)
+  Global Optimization (Phase 10)
+  Global Optimization (Phase 11)
+  Global Optimization (Phase 12)
+  Global Optimization (Phase 13)
+  Global Optimization (Phase 14)
+  Global Optimization (Phase 15)
+  Global Optimization (Phase 16)
+  Global Optimization (Phase 17)
+  Global Optimization (Phase 18)
+  Global Optimization (Phase 19)
+  Global Optimization (Phase 20)
+  Global Optimization (Phase 21)
+  Global Optimization (Phase 22)
+  Global Optimization (Phase 23)
+  Global Optimization (Phase 24)
+  Global Optimization (Phase 25)
+  Global Optimization (Phase 26)
+  Global Optimization (Phase 27)
+  Global Optimization (Phase 28)
+  Global Optimization (Phase 29)
+  Global Optimization (Phase 30)
+  Global Optimization (Phase 31)
+  Mapping 'FPmul_DW01_add_24'
+
+  Beginning Isolate Ports
+  -----------------------
+
+  Beginning Delay Optimization
+  ----------------------------
+
+                                  TOTAL                                                
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER  
+  --------- --------- --------- --------- --------- ------------------------- ---------
+    0:05:42    4895.2      0.53       8.5       0.0                           104124.7422
+    0:08:34    5274.8      0.21       2.8       0.0                           118607.4688
+    0:08:34    5274.8      0.21       2.8       0.0                           118607.4688
+    0:08:49    5278.0      0.21       2.8       0.0                           118676.8516
+
+  Beginning WLM Backend Optimization
+  --------------------------------------
+    0:09:39    5107.2      0.20       2.5       0.0                           112543.7500
+    0:09:46    5106.9      0.20       2.5       0.0                           112617.5078
+    0:09:46    5106.9      0.20       2.5       0.0                           112617.5078
+    0:10:13    5227.4      0.13       2.2       0.0                           116559.3281
+    0:10:14    5227.4      0.13       2.2       0.0                           116559.3281
+    0:10:14    5228.2      0.13       2.2       0.0                           116602.3906
+    0:10:14    5228.2      0.13       2.2       0.0                           116602.3906
+    0:10:15    5228.2      0.13       2.2       0.0                           116602.3906
+    0:10:15    5228.2      0.13       2.2       0.0                           116602.3906
+    0:11:12    5266.0      0.08       1.5       0.0                           118120.5312
+    0:11:12    5266.0      0.08       1.5       0.0                           118120.5312
+    0:11:55    5302.7      0.08       1.4       0.0                           119295.8203
+    0:11:55    5302.7      0.08       1.4       0.0                           119295.8203
+    0:12:59    5337.6      0.06       0.9       0.0                           120713.0391
+    0:12:59    5337.6      0.06       0.9       0.0                           120713.0391
+    0:13:08    5337.6      0.06       0.9       0.0                           120713.0391
+    0:13:08    5337.6      0.06       0.9       0.0                           120713.0391
+    0:13:11    5337.6      0.06       0.9       0.0                           120713.0391
+    0:13:11    5337.6      0.06       0.9       0.0                           120713.0391
+    0:13:21    5337.6      0.06       0.9       0.0                           120713.0391
+    0:13:48    5314.4      0.03       0.4       0.0 I2/SIG_in_int_d_reg[27]/D 119447.6406
+    0:14:03    5317.6      0.03       0.3       0.0                           119377.1328
+    0:14:19    5322.1      0.02       0.3       0.0                           119546.4141
+
+
+  Beginning Leakage Power Optimization  (max_leakage_power 0)
+  ------------------------------------
+
+                                  TOTAL                                                
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER  
+  --------- --------- --------- --------- --------- ------------------------- ---------
+    0:14:19    5322.1      0.02       0.3       0.0                           119546.4141
+  Global Optimization (Phase 32)
+  Global Optimization (Phase 33)
+  Global Optimization (Phase 34)
+  Global Optimization (Phase 35)
+  Global Optimization (Phase 36)
+  Global Optimization (Phase 37)
+  Global Optimization (Phase 38)
+  Global Optimization (Phase 39)
+  Global Optimization (Phase 40)
+  Global Optimization (Phase 41)
+  Global Optimization (Phase 42)
+  Global Optimization (Phase 43)
+  Global Optimization (Phase 44)
+  Global Optimization (Phase 45)
+  Global Optimization (Phase 46)
+  Global Optimization (Phase 47)
+    0:15:02    5089.4      0.02       0.1       0.0 I2/SIG_in_int_d_reg[20]/D 110462.9844
+    0:15:26    5110.1      0.01       0.0       0.0 I2/SIG_in_int_d_reg[20]/D 110974.4453
+    0:15:41    5130.3      0.00       0.0       0.0                           111506.0156
+    0:16:47    5158.3      0.00       0.0       0.0                           112505.8125
+    0:16:48    5158.3      0.00       0.0       0.0                           112505.8125
+    0:16:53    5153.5      0.00       0.0       0.0                           112159.3203
+    0:16:54    5153.5      0.00       0.0       0.0                           112159.3203
+    0:17:29    5153.5      0.00       0.0       0.0                           112159.3203
+    0:17:31    5153.5      0.00       0.0       0.0                           112159.3203
+    0:17:32    5155.6      0.00       0.0       0.0                           112230.0078
+    0:17:32    5155.6      0.00       0.0       0.0                           112230.0078
+    0:17:55    5155.6      0.00       0.0       0.0                           112230.0078
+    0:17:55    5155.6      0.00       0.0       0.0                           112230.0078
+    0:18:26    5157.5      0.00       0.0       0.0                           112336.2344
+    0:18:26    5157.5      0.00       0.0       0.0                           112336.2344
+    0:19:00    5157.5      0.00       0.0       0.0                           112336.2344
+    0:19:00    5157.5      0.00       0.0       0.0                           112336.2344
+    0:19:12    5157.5      0.00       0.0       0.0                           112336.2344
+    0:19:12    5157.5      0.00       0.0       0.0                           112336.2344
+    0:19:45    5157.5      0.00       0.0       0.0                           112336.2344
+    0:19:45    5157.5      0.00       0.0       0.0                           112336.2344
+    0:19:56    5157.5      0.00       0.0       0.0                           112336.2344
+    0:19:56    5157.5      0.00       0.0       0.0                           112336.2344
+    0:20:29    5157.5      0.00       0.0       0.0                           112336.2344
+
+                                  TOTAL                                                
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER  
+  --------- --------- --------- --------- --------- ------------------------- ---------
+    0:20:31    5157.5      0.00       0.0       0.0                           112336.2344
+    0:20:41    5102.4      0.01       0.0       0.0                           109912.8672
+    0:20:49    5113.6      0.00       0.0       0.0                           110264.1250
+    0:20:49    5113.6      0.00       0.0       0.0                           110264.1250
+    0:20:54    5113.6      0.00       0.0       0.0                           110172.7188
+    0:21:04    5089.9      0.00       0.0       0.0                           109521.0547
+    0:21:04    5089.9      0.00       0.0       0.0                           109521.0547
+    0:21:04    5089.9      0.00       0.0       0.0                           109521.0547
+    0:21:04    5089.9      0.00       0.0       0.0                           109521.0547
+    0:21:11    5087.0      0.00       0.0       0.0                           109359.7422
+Loading db file '/software/dk/nangate45/synopsys/NangateOpenCellLibrary_typical_ecsm_nowlm.db'
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+Information: State dependent leakage is now switched from off to on.
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+1

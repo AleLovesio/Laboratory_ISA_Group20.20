@@ -1,0 +1,138 @@
+  Loading design 'FPmul'
+
+  Beginning retiming
+  ------------------
+Information: Updating design information... (UID-85)
+  Retiming FPmul (top)
+  Preferred flip-flop is DFFRS_X1 with setup = 0.04
+
+
+  Retiming base-clock MY_CLK, rising edge.
+  Beginning minimum period retiming ...
+  ... minimum period retiming done.
+  Beginning minimum area retiming step 1 ...
+  ... minimum area retiming step 1 done.
+  Beginning minimum area retiming step 2 ...
+  
+  ... minimum area retiming step 2 done.
+  Beginning minimum area retiming step 3 ...
+  
+  ... minimum area retiming step 3 done.
+  Beginning final register move ...
+  ... final register move done.
+  Lower bound estimate = 1.31
+  Critical path length = 1.31
+  Clock correction = 0.19 (clock-to-Q delay = 0.09, setup = 0.04, uncertainty = 0.07)
+Warning: Design 'FPmul' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+
+  Retiming complete
+  -----------------
+Information: Performing power optimization. (PWR-850)
+Alib files are up-to-date.
+
+Information: There are 75 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+
+
+Loading db file '/software/dk/nangate45/synopsys/NangateOpenCellLibrary_typical_ecsm_nowlm.db'
+Loaded alib file './alib-52/NangateOpenCellLibrary_typical_ecsm_nowlm.db.alib'
+Information: State dependent leakage is now switched from on to off.
+
+  Beginning Pass 1 Mapping  (Incremental)
+  ------------------------
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+
+                                  TOTAL                                                
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER  
+  --------- --------- --------- --------- --------- ------------------------- ---------
+    0:00:26    4245.4      0.00       0.0       3.1                           88965.7734
+    0:00:26    4245.4      0.00       0.0       3.1                           88965.7734
+
+  Beginning Mapping Optimizations  (Ultra High effort)  (Incremental)
+  -------------------------------
+
+  Beginning Incremental Implementation Selection
+  ----------------------------------------------
+Warning: Current implementation 'rpl' of module 'DW01_add'
+	was not found in the files of synthetic_library.
+	Implementation selection of synthetic design
+	'FPmul_DW01_add_2' (cell 'add_1_root_I2/add_149_2') will take longer. (SYNH-22)
+    0:00:31    4241.9      0.00       0.0       3.1                           88861.3516
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+                                  TOTAL                                                
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER  
+  --------- --------- --------- --------- --------- ------------------------- ---------
+    0:00:31    4241.9      0.00       0.0       3.1                           88861.3516
+    0:00:32    4241.9      0.00       0.0       3.1                           88861.3516
+    0:00:37    4223.8      0.00       0.0       3.1                           87786.0469
+    0:00:37    4223.8      0.00       0.0       3.1                           87786.0469
+    0:00:37    4223.8      0.00       0.0       3.1                           87786.0469
+    0:00:37    4223.8      0.00       0.0       3.1                           87786.0469
+    0:00:37    4223.8      0.00       0.0       3.1                           87786.0469
+
+  Beginning Delay Optimization
+  ----------------------------
+    0:00:37    4223.8      0.00       0.0       3.1                           87786.0469
+    0:00:37    4223.8      0.00       0.0       3.1                           87786.0469
+    0:00:37    4223.8      0.00       0.0       3.1                           87786.0469
+    0:00:37    4223.8      0.00       0.0       3.1                           87786.0469
+    0:00:37    4223.8      0.00       0.0       3.1                           87786.0469
+    0:00:38    4223.8      0.00       0.0       3.1                           87786.0469
+
+
+  Beginning Design Rule Fixing  (max_capacitance)
+  ----------------------------
+
+                                  TOTAL                                                
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER  
+  --------- --------- --------- --------- --------- ------------------------- ---------
+    0:00:38    4223.8      0.00       0.0       3.1                           87786.0469
+    0:00:38    4224.9      0.00       0.0       0.0                           87814.7500
+    0:00:43    4224.6      0.00       0.0       0.0                           87800.3984
+    0:00:43    4224.6      0.00       0.0       0.0                           87800.3984
+    0:00:43    4224.6      0.00       0.0       0.0                           87800.3984
+    0:00:43    4224.6      0.00       0.0       0.0                           87800.3984
+    0:00:43    4224.6      0.00       0.0       0.0                           87800.3984
+    0:00:43    4224.6      0.00       0.0       0.0                           87800.3984
+    0:00:43    4224.6      0.00       0.0       0.0                           87800.3984
+    0:00:43    4224.6      0.00       0.0       0.0                           87800.3984
+    0:00:43    4224.6      0.00       0.0       0.0                           87800.3984
+    0:00:44    4224.6      0.00       0.0       0.0                           87800.3984
+    0:00:49    4224.6      0.00       0.0       0.0                           87800.3984
+    0:00:50    4224.6      0.00       0.0       0.0                           87800.3984
+    0:00:50    4224.6      0.00       0.0       0.0                           87800.3984
+    0:00:50    4224.6      0.00       0.0       0.0                           87800.3984
+    0:00:50    4224.6      0.00       0.0       0.0                           87800.3984
+    0:00:50    4224.6      0.00       0.0       0.0                           87800.3984
+    0:00:50    4224.6      0.00       0.0       0.0                           87800.3984
+    0:00:50    4224.6      0.00       0.0       0.0                           87800.3984
+    0:00:50    4224.6      0.00       0.0       0.0                           87800.3984
+    0:00:50    4224.6      0.00       0.0       0.0                           87800.3984
+
+                                  TOTAL                                                
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER  
+  --------- --------- --------- --------- --------- ------------------------- ---------
+    0:00:50    4224.6      0.00       0.0       0.0                           87800.3984
+    0:00:56    4224.6      0.00       0.0       0.0                           87800.3984
+    0:01:17    4071.4      0.00       0.0       0.0                           82857.6406
+    0:01:17    4071.4      0.00       0.0       0.0                           82857.6406
+    0:01:21    4069.5      0.00       0.0       0.0                           82801.8984
+Loading db file '/software/dk/nangate45/synopsys/NangateOpenCellLibrary_typical_ecsm_nowlm.db'
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+Information: State dependent leakage is now switched from off to on.
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+1

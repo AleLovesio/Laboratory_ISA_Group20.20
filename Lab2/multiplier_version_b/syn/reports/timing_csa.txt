@@ -1,0 +1,105 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : FPmul
+Version: O-2018.06-SP4
+Date   : Mon Nov 16 17:14:02 2020
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: I1/A_SIG_reg[1]
+              (rising edge-triggered flip-flop clocked by MY_CLK)
+  Endpoint: I2/SIG_in_reg[27]
+            (rising edge-triggered flip-flop clocked by MY_CLK)
+  Path Group: MY_CLK
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  FPmul              5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock MY_CLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  I1/A_SIG_reg[1]/CK (DFF_X1)                             0.00       0.00 r
+  I1/A_SIG_reg[1]/Q (DFF_X1)                              0.09       0.09 r
+  I2/mult_134/A[1] (FPmul_DW02_mult_0)                    0.00       0.09 r
+  I2/mult_134/U552/ZN (INV_X1)                            0.02       0.11 f
+  I2/mult_134/U549/Z (BUF_X1)                             0.04       0.15 f
+  I2/mult_134/U857/ZN (NOR2_X1)                           0.05       0.20 r
+  I2/mult_134/S0_21/S (FA_X1)                             0.11       0.31 f
+  I2/mult_134/S2_2_20/CO (FA_X1)                          0.09       0.40 f
+  I2/mult_134/S2_3_20/S (FA_X1)                           0.15       0.55 r
+  I2/mult_134/S2_4_19/S (FA_X1)                           0.11       0.67 f
+  I2/mult_134/S2_5_18/CO (FA_X1)                          0.09       0.76 f
+  I2/mult_134/S2_6_18/S (FA_X1)                           0.15       0.91 r
+  I2/mult_134/S2_7_17/S (FA_X1)                           0.11       1.02 f
+  I2/mult_134/S2_8_16/CO (FA_X1)                          0.09       1.11 f
+  I2/mult_134/S2_9_16/S (FA_X1)                           0.15       1.26 r
+  I2/mult_134/S2_10_15/S (FA_X1)                          0.11       1.37 f
+  I2/mult_134/S2_11_14/CO (FA_X1)                         0.09       1.47 f
+  I2/mult_134/S2_12_14/S (FA_X1)                          0.15       1.61 r
+  I2/mult_134/S2_13_13/S (FA_X1)                          0.11       1.73 f
+  I2/mult_134/S2_14_12/CO (FA_X1)                         0.09       1.82 f
+  I2/mult_134/S2_15_12/CO (FA_X1)                         0.11       1.93 f
+  I2/mult_134/S2_16_12/CO (FA_X1)                         0.11       2.03 f
+  I2/mult_134/S2_17_12/CO (FA_X1)                         0.11       2.14 f
+  I2/mult_134/S2_18_12/CO (FA_X1)                         0.11       2.25 f
+  I2/mult_134/S2_19_12/CO (FA_X1)                         0.11       2.35 f
+  I2/mult_134/S2_20_12/CO (FA_X1)                         0.11       2.46 f
+  I2/mult_134/S2_21_12/S (FA_X1)                          0.15       2.61 r
+  I2/mult_134/S2_22_11/S (FA_X1)                          0.11       2.72 f
+  I2/mult_134/S2_23_10/S (FA_X1)                          0.14       2.86 r
+  I2/mult_134/U378/Z (XOR2_X1)                            0.08       2.93 r
+  I2/mult_134/U334/Z (XOR2_X1)                            0.08       3.01 r
+  I2/mult_134/U286/Z (XOR2_X1)                            0.08       3.10 r
+  I2/mult_134/U238/Z (XOR2_X1)                            0.08       3.18 r
+  I2/mult_134/U193/Z (XOR2_X1)                            0.08       3.26 r
+  I2/mult_134/U153/Z (XOR2_X1)                            0.08       3.34 r
+  I2/mult_134/U50/Z (XOR2_X1)                             0.08       3.41 r
+  I2/mult_134/S4_2/S (FA_X1)                              0.12       3.54 f
+  I2/mult_134/U58/ZN (INV_X1)                             0.03       3.57 r
+  I2/mult_134/U54/ZN (NAND2_X1)                           0.03       3.59 f
+  I2/mult_134/U56/ZN (NAND2_X1)                           0.03       3.63 r
+  I2/mult_134/FS_1/A[31] (FPmul_DW01_add_2)               0.00       3.63 r
+  I2/mult_134/FS_1/U20/ZN (AND2_X1)                       0.04       3.67 r
+  I2/mult_134/FS_1/U81/ZN (AOI21_X1)                      0.03       3.70 f
+  I2/mult_134/FS_1/U79/ZN (OAI21_X1)                      0.06       3.77 r
+  I2/mult_134/FS_1/U71/ZN (AOI21_X1)                      0.04       3.80 f
+  I2/mult_134/FS_1/U69/ZN (OAI21_X1)                      0.06       3.86 r
+  I2/mult_134/FS_1/U61/ZN (AOI21_X1)                      0.04       3.90 f
+  I2/mult_134/FS_1/U59/ZN (OAI21_X1)                      0.06       3.96 r
+  I2/mult_134/FS_1/U51/ZN (AOI21_X1)                      0.04       4.00 f
+  I2/mult_134/FS_1/U49/ZN (OAI21_X1)                      0.06       4.06 r
+  I2/mult_134/FS_1/U41/ZN (AOI21_X1)                      0.04       4.10 f
+  I2/mult_134/FS_1/U39/ZN (OAI21_X1)                      0.06       4.16 r
+  I2/mult_134/FS_1/U31/ZN (AOI21_X1)                      0.04       4.20 f
+  I2/mult_134/FS_1/U29/ZN (OAI21_X1)                      0.06       4.26 r
+  I2/mult_134/FS_1/U23/ZN (AOI21_X1)                      0.04       4.30 f
+  I2/mult_134/FS_1/U22/Z (XOR2_X1)                        0.07       4.37 f
+  I2/mult_134/FS_1/SUM[45] (FPmul_DW01_add_2)             0.00       4.37 f
+  I2/mult_134/PRODUCT[47] (FPmul_DW02_mult_0)             0.00       4.37 f
+  I2/SIG_in_reg[27]/D (DFF_X1)                            0.01       4.38 f
+  data arrival time                                                  4.38
+
+  clock MY_CLK (rise edge)                                4.49       4.49
+  clock network delay (ideal)                             0.00       4.49
+  clock uncertainty                                      -0.07       4.42
+  I2/SIG_in_reg[27]/CK (DFF_X1)                           0.00       4.42 r
+  library setup time                                     -0.04       4.38
+  data required time                                                 4.38
+  --------------------------------------------------------------------------
+  data required time                                                 4.38
+  data arrival time                                                 -4.38
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+1
