@@ -1,0 +1,75 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : sfu
+Version: F-2011.09-SP3
+Date   : Wed Jan  6 21:15:09 2021
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: IN_A[31] (input port)
+  Endpoint: ZERO (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sfu                5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 r
+  IN_A[31] (in)                                           0.00       0.00 r
+  abs_v/INPUT[31] (abs_val_N32)                           0.00       0.00 r
+  abs_v/U37/Z (BUF_X1)                                    0.12       0.12 r
+  abs_v/U35/Z (XOR2_X1)                                   0.10       0.22 r
+  abs_v/add_32/A[0] (abs_val_N32_DW01_add_0)              0.00       0.22 r
+  abs_v/add_32/U30/ZN (AND2_X1)                           0.05       0.28 r
+  abs_v/add_32/U1/ZN (AND2_X1)                            0.05       0.33 r
+  abs_v/add_32/U2/ZN (AND2_X1)                            0.05       0.37 r
+  abs_v/add_32/U3/ZN (AND2_X1)                            0.05       0.42 r
+  abs_v/add_32/U4/ZN (AND2_X1)                            0.05       0.47 r
+  abs_v/add_32/U5/ZN (AND2_X1)                            0.05       0.52 r
+  abs_v/add_32/U6/ZN (AND2_X1)                            0.05       0.57 r
+  abs_v/add_32/U7/ZN (AND2_X1)                            0.05       0.62 r
+  abs_v/add_32/U8/ZN (AND2_X1)                            0.05       0.67 r
+  abs_v/add_32/U9/ZN (AND2_X1)                            0.05       0.72 r
+  abs_v/add_32/U10/ZN (AND2_X1)                           0.05       0.76 r
+  abs_v/add_32/U11/ZN (AND2_X1)                           0.05       0.81 r
+  abs_v/add_32/U12/ZN (AND2_X1)                           0.05       0.86 r
+  abs_v/add_32/U13/ZN (AND2_X1)                           0.05       0.91 r
+  abs_v/add_32/U14/ZN (AND2_X1)                           0.05       0.96 r
+  abs_v/add_32/U15/ZN (AND2_X1)                           0.05       1.01 r
+  abs_v/add_32/U16/ZN (AND2_X1)                           0.05       1.06 r
+  abs_v/add_32/U17/ZN (AND2_X1)                           0.05       1.10 r
+  abs_v/add_32/U18/ZN (AND2_X1)                           0.05       1.15 r
+  abs_v/add_32/U19/ZN (AND2_X1)                           0.05       1.20 r
+  abs_v/add_32/U20/ZN (AND2_X1)                           0.05       1.25 r
+  abs_v/add_32/U21/ZN (AND2_X1)                           0.05       1.30 r
+  abs_v/add_32/U22/ZN (AND2_X1)                           0.05       1.35 r
+  abs_v/add_32/U23/ZN (AND2_X1)                           0.05       1.40 r
+  abs_v/add_32/U24/ZN (AND2_X1)                           0.05       1.45 r
+  abs_v/add_32/U25/ZN (AND2_X1)                           0.05       1.49 r
+  abs_v/add_32/U26/ZN (AND2_X1)                           0.05       1.54 r
+  abs_v/add_32/U27/ZN (AND2_X1)                           0.05       1.59 r
+  abs_v/add_32/U28/ZN (AND2_X1)                           0.05       1.64 r
+  abs_v/add_32/U29/ZN (AND2_X1)                           0.05       1.69 r
+  abs_v/add_32/U42/Z (XOR2_X1)                            0.04       1.73 f
+  abs_v/add_32/SUM[30] (abs_val_N32_DW01_add_0)           0.00       1.73 f
+  abs_v/OUTPUT[30] (abs_val_N32)                          0.00       1.73 f
+  U67/ZN (NOR4_X1)                                        0.10       1.82 r
+  U71/ZN (NAND4_X1)                                       0.05       1.87 f
+  U68/ZN (NOR4_X1)                                        0.10       1.97 r
+  ZERO (out)                                              0.02       2.00 r
+  data arrival time                                                  2.00
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

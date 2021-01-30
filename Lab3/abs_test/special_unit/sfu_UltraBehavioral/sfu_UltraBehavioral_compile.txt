@@ -1,0 +1,86 @@
+Information: Evaluating DesignWare library utilization. (UISN-27)
+
+============================================================================
+| DesignWare Building Block Library  |         Version         | Available |
+============================================================================
+| Basic DW Building Blocks           | F-2011.09-DWBB_201109.3 |     *     |
+| Licensed DW Building Blocks        |                         |           |
+============================================================================
+
+
+Information: There are 33 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+
+
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'abs_val_N32'
+  Processing 'sfu'
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+
+  Beginning Implementation Selection
+  ----------------------------------
+  Processing 'abs_val_N32_DW01_sub_0'
+
+  Beginning Mapping Optimizations  (Medium effort)
+  -------------------------------
+
+   ELAPSED            WORST NEG TOTAL NEG  DESIGN                            
+    TIME      AREA      SLACK     SLACK   RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:01     392.9      0.00       0.0       0.0                          
+    0:00:01     392.9      0.00       0.0       0.0                          
+    0:00:01     392.9      0.00       0.0       0.0                          
+    0:00:01     392.9      0.00       0.0       0.0                          
+    0:00:01     392.9      0.00       0.0       0.0                          
+    0:00:02     243.1      0.00       0.0       0.0                          
+    0:00:02     243.1      0.00       0.0       0.0                          
+    0:00:02     243.1      0.00       0.0       0.0                          
+    0:00:02     243.1      0.00       0.0       0.0                          
+    0:00:02     243.1      0.00       0.0       0.0                          
+    0:00:02     243.1      0.00       0.0       0.0                          
+    0:00:02     243.1      0.00       0.0       0.0                          
+    0:00:02     243.1      0.00       0.0       0.0                          
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+   ELAPSED            WORST NEG TOTAL NEG  DESIGN                            
+    TIME      AREA      SLACK     SLACK   RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:02     243.1      0.00       0.0       0.0                          
+    0:00:02     243.1      0.00       0.0       0.0                          
+    0:00:02     243.1      0.00       0.0       0.0                          
+
+
+  Beginning Area-Recovery Phase  (cleanup)
+  -----------------------------
+
+   ELAPSED            WORST NEG TOTAL NEG  DESIGN                            
+    TIME      AREA      SLACK     SLACK   RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:02     243.1      0.00       0.0       0.0                          
+    0:00:02     243.1      0.00       0.0       0.0                          
+    0:00:02     226.6      0.00       0.0       0.0                          
+    0:00:02     226.1      0.00       0.0       0.0                          
+    0:00:02     225.6      0.00       0.0       0.0                          
+    0:00:02     225.0      0.00       0.0       0.0                          
+    0:00:02     224.5      0.00       0.0       0.0                          
+    0:00:02     224.5      0.00       0.0       0.0                          
+    0:00:02     224.5      0.00       0.0       0.0                          
+    0:00:02     224.2      0.00       0.0       0.0                          
+    0:00:02     224.2      0.00       0.0       0.0                          
+    0:00:02     224.2      0.00       0.0       0.0                          
+    0:00:02     224.2      0.00       0.0       0.0                          
+    0:00:02     224.2      0.00       0.0       0.0                          
+    0:00:02     224.2      0.00       0.0       0.0                          
+    0:00:02     224.2      0.00       0.0       0.0                          
+Loading db file '/home/mg.lowpower/do/libnangate/NangateOpenCellLibrary_typical_ecsm.db'
+
+  Optimization Complete
+  ---------------------
+1

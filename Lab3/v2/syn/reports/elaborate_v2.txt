@@ -1,0 +1,130 @@
+Loading db file '/software/synopsys/syn_current_64.18/libraries/syn/gtech.db'
+Loading db file '/software/synopsys/syn_current_64.18/libraries/syn/standard.sldb'
+  Loading link library 'NangateOpenCellLibrary'
+  Loading link library 'gtech'
+Running PRESTO HDLC
+Presto compilation completed successfully.
+Elaborated 1 design.
+Current design is now 'riscv'.
+Information: Building the design 'mux2to1' instantiated from design 'riscv' with
+	the parameters "N=32". (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'generic_register' instantiated from design 'riscv' with
+	the parameters "N=32". (HDL-193)
+
+Inferred memory devices in process
+	in routine generic_register_N32 line 16 in file
+		'../riscv/generic_register.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|        Q_reg        | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'ADDER' instantiated from design 'riscv' with
+	the parameters "N=32". (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'register_file'. (HDL-193)
+
+Inferred memory devices in process
+	in routine register_file line 17 in file
+		'../riscv/register_file.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|       REG_reg       | Flip-flop | 1024  |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Statistics for MUX_OPs
+======================================================
+| block name/line  | Inputs | Outputs | # sel inputs |
+======================================================
+| register_file/32 |   32   |   32    |      5       |
+| register_file/33 |   32   |   32    |      5       |
+======================================================
+Presto compilation completed successfully.
+Information: Building the design 'imm_gen'. (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'shift_left_1' instantiated from design 'riscv' with
+	the parameters "N=32". (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'control_unit'. (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'mux2to1' instantiated from design 'riscv' with
+	the parameters "N=8". (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'hazard_unit'. (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'register_1bit'. (HDL-193)
+
+Inferred memory devices in process
+	in routine register_1bit line 15 in file
+		'../riscv/register_1bit.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|        Q_reg        | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'generic_register' instantiated from design 'riscv' with
+	the parameters "N=2". (HDL-193)
+
+Inferred memory devices in process
+	in routine generic_register_N2 line 16 in file
+		'../riscv/generic_register.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|        Q_reg        | Flip-flop |   2   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'generic_register' instantiated from design 'riscv' with
+	the parameters "N=5". (HDL-193)
+
+Inferred memory devices in process
+	in routine generic_register_N5 line 16 in file
+		'../riscv/generic_register.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|        Q_reg        | Flip-flop |   5   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'mux3to1' instantiated from design 'riscv' with
+	the parameters "N=32". (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'mux4to1' instantiated from design 'riscv' with
+	the parameters "N=32". (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'fwd_unit'. (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'alu_b'. (HDL-193)
+
+Statistics for case statements in always block at line 82 in file
+	'../alu/alu_b.vhd'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            84            |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Information: Building the design 'alu_cu'. (HDL-193)
+
+Statistics for case statements in always block at line 19 in file
+	'../alu/alu_cu.vhd'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            22            |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Information: Building the design 'slt_comparator'. (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'imm_arith_rshift'. (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'andi_op'. (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'xor_op'. (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'adder_subtractor'. (HDL-193)
+Presto compilation completed successfully.
+1

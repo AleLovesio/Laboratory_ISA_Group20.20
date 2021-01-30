@@ -1,0 +1,74 @@
+
+Information: There are 32 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+
+
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'abs_val_N32'
+  Processing 'sfu'
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+
+  Beginning Implementation Selection
+  ----------------------------------
+  Processing 'abs_val_N32_DW01_add_0'
+
+  Beginning Mapping Optimizations  (Medium effort)
+  -------------------------------
+
+   ELAPSED            WORST NEG TOTAL NEG  DESIGN                            
+    TIME      AREA      SLACK     SLACK   RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:01     303.5      0.00       0.0       0.0                          
+    0:00:01     303.5      0.00       0.0       0.0                          
+    0:00:01     303.5      0.00       0.0       0.0                          
+    0:00:01     303.5      0.00       0.0       0.0                          
+    0:00:01     303.5      0.00       0.0       0.0                          
+    0:00:01     187.8      0.00       0.0       0.0                          
+    0:00:01     187.8      0.00       0.0       0.0                          
+    0:00:01     187.8      0.00       0.0       0.0                          
+    0:00:01     187.8      0.00       0.0       0.0                          
+    0:00:01     187.8      0.00       0.0       0.0                          
+    0:00:01     187.8      0.00       0.0       0.0                          
+    0:00:01     187.8      0.00       0.0       0.0                          
+    0:00:01     187.8      0.00       0.0       0.0                          
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+   ELAPSED            WORST NEG TOTAL NEG  DESIGN                            
+    TIME      AREA      SLACK     SLACK   RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:01     187.8      0.00       0.0       0.0                          
+    0:00:01     187.8      0.00       0.0       0.0                          
+    0:00:01     187.8      0.00       0.0       0.0                          
+
+
+  Beginning Area-Recovery Phase  (cleanup)
+  -----------------------------
+
+   ELAPSED            WORST NEG TOTAL NEG  DESIGN                            
+    TIME      AREA      SLACK     SLACK   RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:01     187.8      0.00       0.0       0.0                          
+    0:00:01     187.8      0.00       0.0       0.0                          
+    0:00:01     187.8      0.00       0.0       0.0                          
+    0:00:01     187.8      0.00       0.0       0.0                          
+    0:00:01     187.8      0.00       0.0       0.0                          
+    0:00:01     187.8      0.00       0.0       0.0                          
+    0:00:01     185.1      0.00       0.0       0.0                          
+    0:00:01     185.1      0.00       0.0       0.0                          
+    0:00:01     185.1      0.00       0.0       0.0                          
+    0:00:01     185.1      0.00       0.0       0.0                          
+    0:00:01     185.1      0.00       0.0       0.0                          
+    0:00:01     185.1      0.00       0.0       0.0                          
+    0:00:01     185.1      0.00       0.0       0.0                          
+Loading db file '/home/mg.lowpower/do/libnangate/NangateOpenCellLibrary_typical_ecsm.db'
+
+  Optimization Complete
+  ---------------------
+1

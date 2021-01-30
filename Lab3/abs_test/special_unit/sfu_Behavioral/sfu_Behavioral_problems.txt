@@ -1,0 +1,154 @@
+ 
+****************************************
+check_design summary:
+Version:     F-2011.09-SP3
+Date:        Wed Jan  6 21:15:03 2021
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                     67
+    Unconnected ports (LINT-28)                                    66
+    Feedthrough (LINT-29)                                           1
+
+Cells                                                              34
+    Connected to power or ground (LINT-32)                         33
+    Nets connected to multiple pins on same cell (LINT-33)          1
+--------------------------------------------------------------------------------
+
+Warning: In design 'sfu', port 'IN_B[31]' is not connected to any nets. (LINT-28)
+Warning: In design 'sfu', port 'IN_B[30]' is not connected to any nets. (LINT-28)
+Warning: In design 'sfu', port 'IN_B[29]' is not connected to any nets. (LINT-28)
+Warning: In design 'sfu', port 'IN_B[28]' is not connected to any nets. (LINT-28)
+Warning: In design 'sfu', port 'IN_B[27]' is not connected to any nets. (LINT-28)
+Warning: In design 'sfu', port 'IN_B[26]' is not connected to any nets. (LINT-28)
+Warning: In design 'sfu', port 'IN_B[25]' is not connected to any nets. (LINT-28)
+Warning: In design 'sfu', port 'IN_B[24]' is not connected to any nets. (LINT-28)
+Warning: In design 'sfu', port 'IN_B[23]' is not connected to any nets. (LINT-28)
+Warning: In design 'sfu', port 'IN_B[22]' is not connected to any nets. (LINT-28)
+Warning: In design 'sfu', port 'IN_B[21]' is not connected to any nets. (LINT-28)
+Warning: In design 'sfu', port 'IN_B[20]' is not connected to any nets. (LINT-28)
+Warning: In design 'sfu', port 'IN_B[19]' is not connected to any nets. (LINT-28)
+Warning: In design 'sfu', port 'IN_B[18]' is not connected to any nets. (LINT-28)
+Warning: In design 'sfu', port 'IN_B[17]' is not connected to any nets. (LINT-28)
+Warning: In design 'sfu', port 'IN_B[16]' is not connected to any nets. (LINT-28)
+Warning: In design 'sfu', port 'IN_B[15]' is not connected to any nets. (LINT-28)
+Warning: In design 'sfu', port 'IN_B[14]' is not connected to any nets. (LINT-28)
+Warning: In design 'sfu', port 'IN_B[13]' is not connected to any nets. (LINT-28)
+Warning: In design 'sfu', port 'IN_B[12]' is not connected to any nets. (LINT-28)
+Warning: In design 'sfu', port 'IN_B[11]' is not connected to any nets. (LINT-28)
+Warning: In design 'sfu', port 'IN_B[10]' is not connected to any nets. (LINT-28)
+Warning: In design 'sfu', port 'IN_B[9]' is not connected to any nets. (LINT-28)
+Warning: In design 'sfu', port 'IN_B[8]' is not connected to any nets. (LINT-28)
+Warning: In design 'sfu', port 'IN_B[7]' is not connected to any nets. (LINT-28)
+Warning: In design 'sfu', port 'IN_B[6]' is not connected to any nets. (LINT-28)
+Warning: In design 'sfu', port 'IN_B[5]' is not connected to any nets. (LINT-28)
+Warning: In design 'sfu', port 'IN_B[4]' is not connected to any nets. (LINT-28)
+Warning: In design 'sfu', port 'IN_B[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'sfu', port 'IN_B[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'sfu', port 'IN_B[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'sfu', port 'IN_B[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'abs_val_N32_DW01_sub_0', port 'A[31]' is not connected to any nets. (LINT-28)
+Warning: In design 'abs_val_N32_DW01_sub_0', port 'A[30]' is not connected to any nets. (LINT-28)
+Warning: In design 'abs_val_N32_DW01_sub_0', port 'A[29]' is not connected to any nets. (LINT-28)
+Warning: In design 'abs_val_N32_DW01_sub_0', port 'A[28]' is not connected to any nets. (LINT-28)
+Warning: In design 'abs_val_N32_DW01_sub_0', port 'A[27]' is not connected to any nets. (LINT-28)
+Warning: In design 'abs_val_N32_DW01_sub_0', port 'A[26]' is not connected to any nets. (LINT-28)
+Warning: In design 'abs_val_N32_DW01_sub_0', port 'A[25]' is not connected to any nets. (LINT-28)
+Warning: In design 'abs_val_N32_DW01_sub_0', port 'A[24]' is not connected to any nets. (LINT-28)
+Warning: In design 'abs_val_N32_DW01_sub_0', port 'A[23]' is not connected to any nets. (LINT-28)
+Warning: In design 'abs_val_N32_DW01_sub_0', port 'A[22]' is not connected to any nets. (LINT-28)
+Warning: In design 'abs_val_N32_DW01_sub_0', port 'A[21]' is not connected to any nets. (LINT-28)
+Warning: In design 'abs_val_N32_DW01_sub_0', port 'A[20]' is not connected to any nets. (LINT-28)
+Warning: In design 'abs_val_N32_DW01_sub_0', port 'A[19]' is not connected to any nets. (LINT-28)
+Warning: In design 'abs_val_N32_DW01_sub_0', port 'A[18]' is not connected to any nets. (LINT-28)
+Warning: In design 'abs_val_N32_DW01_sub_0', port 'A[17]' is not connected to any nets. (LINT-28)
+Warning: In design 'abs_val_N32_DW01_sub_0', port 'A[16]' is not connected to any nets. (LINT-28)
+Warning: In design 'abs_val_N32_DW01_sub_0', port 'A[15]' is not connected to any nets. (LINT-28)
+Warning: In design 'abs_val_N32_DW01_sub_0', port 'A[14]' is not connected to any nets. (LINT-28)
+Warning: In design 'abs_val_N32_DW01_sub_0', port 'A[13]' is not connected to any nets. (LINT-28)
+Warning: In design 'abs_val_N32_DW01_sub_0', port 'A[12]' is not connected to any nets. (LINT-28)
+Warning: In design 'abs_val_N32_DW01_sub_0', port 'A[11]' is not connected to any nets. (LINT-28)
+Warning: In design 'abs_val_N32_DW01_sub_0', port 'A[10]' is not connected to any nets. (LINT-28)
+Warning: In design 'abs_val_N32_DW01_sub_0', port 'A[9]' is not connected to any nets. (LINT-28)
+Warning: In design 'abs_val_N32_DW01_sub_0', port 'A[8]' is not connected to any nets. (LINT-28)
+Warning: In design 'abs_val_N32_DW01_sub_0', port 'A[7]' is not connected to any nets. (LINT-28)
+Warning: In design 'abs_val_N32_DW01_sub_0', port 'A[6]' is not connected to any nets. (LINT-28)
+Warning: In design 'abs_val_N32_DW01_sub_0', port 'A[5]' is not connected to any nets. (LINT-28)
+Warning: In design 'abs_val_N32_DW01_sub_0', port 'A[4]' is not connected to any nets. (LINT-28)
+Warning: In design 'abs_val_N32_DW01_sub_0', port 'A[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'abs_val_N32_DW01_sub_0', port 'A[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'abs_val_N32_DW01_sub_0', port 'A[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'abs_val_N32_DW01_sub_0', port 'A[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'abs_val_N32_DW01_sub_0', port 'CI' is not connected to any nets. (LINT-28)
+Warning: In design 'abs_val_N32_DW01_sub_0', port 'CO' is not connected to any nets. (LINT-28)
+Warning: In design 'abs_val_N32_DW01_sub_0', input port 'B[0]' is connected directly to output port 'DIFF[0]'. (LINT-29)
+Warning: In design 'abs_val_N32', a pin on submodule 'sub_add_22_b0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'A[31]' is connected to logic 0. 
+Warning: In design 'abs_val_N32', a pin on submodule 'sub_add_22_b0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'A[30]' is connected to logic 0. 
+Warning: In design 'abs_val_N32', a pin on submodule 'sub_add_22_b0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'A[29]' is connected to logic 0. 
+Warning: In design 'abs_val_N32', a pin on submodule 'sub_add_22_b0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'A[28]' is connected to logic 0. 
+Warning: In design 'abs_val_N32', a pin on submodule 'sub_add_22_b0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'A[27]' is connected to logic 0. 
+Warning: In design 'abs_val_N32', a pin on submodule 'sub_add_22_b0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'A[26]' is connected to logic 0. 
+Warning: In design 'abs_val_N32', a pin on submodule 'sub_add_22_b0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'A[25]' is connected to logic 0. 
+Warning: In design 'abs_val_N32', a pin on submodule 'sub_add_22_b0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'A[24]' is connected to logic 0. 
+Warning: In design 'abs_val_N32', a pin on submodule 'sub_add_22_b0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'A[23]' is connected to logic 0. 
+Warning: In design 'abs_val_N32', a pin on submodule 'sub_add_22_b0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'A[22]' is connected to logic 0. 
+Warning: In design 'abs_val_N32', a pin on submodule 'sub_add_22_b0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'A[21]' is connected to logic 0. 
+Warning: In design 'abs_val_N32', a pin on submodule 'sub_add_22_b0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'A[20]' is connected to logic 0. 
+Warning: In design 'abs_val_N32', a pin on submodule 'sub_add_22_b0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'A[19]' is connected to logic 0. 
+Warning: In design 'abs_val_N32', a pin on submodule 'sub_add_22_b0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'A[18]' is connected to logic 0. 
+Warning: In design 'abs_val_N32', a pin on submodule 'sub_add_22_b0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'A[17]' is connected to logic 0. 
+Warning: In design 'abs_val_N32', a pin on submodule 'sub_add_22_b0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'A[16]' is connected to logic 0. 
+Warning: In design 'abs_val_N32', a pin on submodule 'sub_add_22_b0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'A[15]' is connected to logic 0. 
+Warning: In design 'abs_val_N32', a pin on submodule 'sub_add_22_b0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'A[14]' is connected to logic 0. 
+Warning: In design 'abs_val_N32', a pin on submodule 'sub_add_22_b0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'A[13]' is connected to logic 0. 
+Warning: In design 'abs_val_N32', a pin on submodule 'sub_add_22_b0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'A[12]' is connected to logic 0. 
+Warning: In design 'abs_val_N32', a pin on submodule 'sub_add_22_b0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'A[11]' is connected to logic 0. 
+Warning: In design 'abs_val_N32', a pin on submodule 'sub_add_22_b0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'A[10]' is connected to logic 0. 
+Warning: In design 'abs_val_N32', a pin on submodule 'sub_add_22_b0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'A[9]' is connected to logic 0. 
+Warning: In design 'abs_val_N32', a pin on submodule 'sub_add_22_b0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'A[8]' is connected to logic 0. 
+Warning: In design 'abs_val_N32', a pin on submodule 'sub_add_22_b0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'A[7]' is connected to logic 0. 
+Warning: In design 'abs_val_N32', a pin on submodule 'sub_add_22_b0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'A[6]' is connected to logic 0. 
+Warning: In design 'abs_val_N32', a pin on submodule 'sub_add_22_b0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'A[5]' is connected to logic 0. 
+Warning: In design 'abs_val_N32', a pin on submodule 'sub_add_22_b0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'A[4]' is connected to logic 0. 
+Warning: In design 'abs_val_N32', a pin on submodule 'sub_add_22_b0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'A[3]' is connected to logic 0. 
+Warning: In design 'abs_val_N32', a pin on submodule 'sub_add_22_b0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'A[2]' is connected to logic 0. 
+Warning: In design 'abs_val_N32', a pin on submodule 'sub_add_22_b0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'A[1]' is connected to logic 0. 
+Warning: In design 'abs_val_N32', a pin on submodule 'sub_add_22_b0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'A[0]' is connected to logic 0. 
+Warning: In design 'abs_val_N32', a pin on submodule 'sub_add_22_b0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'CI' is connected to logic 0. 
+Warning: In design 'abs_val_N32', the same net is connected to more than one pin on submodule 'sub_add_22_b0'. (LINT-33)
+   Net 'n3' is connected to pins 'A[31]', 'A[30]'', 'A[29]', 'A[28]', 'A[27]', 'A[26]', 'A[25]', 'A[24]', 'A[23]', 'A[22]', 'A[21]', 'A[20]', 'A[19]', 'A[18]', 'A[17]', 'A[16]', 'A[15]', 'A[14]', 'A[13]', 'A[12]', 'A[11]', 'A[10]', 'A[9]', 'A[8]', 'A[7]', 'A[6]', 'A[5]', 'A[4]', 'A[3]', 'A[2]', 'A[1]', 'A[0]'.
+1

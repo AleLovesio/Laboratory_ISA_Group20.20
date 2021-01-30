@@ -1,0 +1,71 @@
+Running PRESTO HDLC
+Compiling Entity Declaration ABS_VAL
+Compiling Architecture ULTRABEHAVIORAL of ABS_VAL
+Compiling Architecture BEHAVIORAL of ABS_VAL
+Compiling Architecture BEHAVIORAL_CODELIKE of ABS_VAL
+Compiling Entity Declaration SFU
+Compiling Architecture ULTRABEHAVIORAL of SFU
+Compiling Architecture BEHAVIORAL of SFU
+Compiling Architecture BEHAVIORAL_CODELIKE of SFU
+Warning:  The entity 'abs_val' has multiple architectures defined. The last defined architecture 'Behavioral_codelike' will be used to build the design by default. (VHD-6)
+Warning:  The entity 'sfu' has multiple architectures defined. The last defined architecture 'Behavioral_codelike' will be used to build the design by default. (VHD-6)
+Presto compilation completed successfully.
+Loading db file '/home/mg.lowpower/do/libnangate/NangateOpenCellLibrary_typical_ecsm.db'
+UltraBehavioral
+Loading db file '/software/synopsys/syn_current_64.11/libraries/syn/gtech.db'
+Loading db file '/software/synopsys/syn_current_64.11/libraries/syn/standard.sldb'
+  Loading link library 'NangateOpenCellLibrary'
+  Loading link library 'gtech'
+Running PRESTO HDLC
+Component WORK.ULTRABEHAVIORAL/SFU.ULTRABEHAVIORAL.ABS_V has been configured to use the following implementation:
+      Work Library: WORK
+      Design Name:  ABS_VAL
+      Architecture Name: ULTRABEHAVIORAL
+Presto compilation completed successfully.
+Elaborated 1 design.
+Current design is now 'sfu'.
+Information: Building the design 'ABS_VAL' instantiated from design 'sfu' with
+	the parameters "N=32". (HDL-193)
+Presto compilation completed successfully.
+Warning: Creating virtual clock named 'clk' with no sources. (UID-348)
+Writing ddc file '../sfu_UltraBehavioral/sfu_UltraBehavioral.ddc'.
+Information: Annotated 'cell' delays are assumed to include load delay. (UID-282)
+Information: Writing timing information to file '/home/lp20.28/Desktop/abs_test/special_unit/sfu_UltraBehavioral/sfu_UltraBehavioral.sdf'. (WT-3)
+Writing verilog file '/home/lp20.28/Desktop/abs_test/special_unit/sfu_UltraBehavioral/sfu_netlist_UltraBehavioral.v'.
+Removing design 'sfu'
+Behavioral
+Running PRESTO HDLC
+Component WORK.BEHAVIORAL/SFU.BEHAVIORAL.ABS_V has been configured to use the following implementation:
+      Work Library: WORK
+      Design Name:  ABS_VAL
+      Architecture Name: BEHAVIORAL
+Presto compilation completed successfully.
+Elaborated 1 design.
+Current design is now 'sfu'.
+Information: Building the design 'ABS_VAL' instantiated from design 'sfu' with
+	the parameters "N=32". (HDL-193)
+Presto compilation completed successfully.
+Warning: Creating virtual clock named 'clk' with no sources. (UID-348)
+Writing ddc file '../sfu_Behavioral/sfu_Behavioral.ddc'.
+Information: Annotated 'cell' delays are assumed to include load delay. (UID-282)
+Information: Writing timing information to file '/home/lp20.28/Desktop/abs_test/special_unit/sfu_Behavioral/sfu_Behavioral.sdf'. (WT-3)
+Writing verilog file '/home/lp20.28/Desktop/abs_test/special_unit/sfu_Behavioral/sfu_netlist_Behavioral.v'.
+Removing design 'sfu'
+Behavioral_codelike
+Running PRESTO HDLC
+Component WORK.BEHAVIORAL_CODELIKE/SFU.BEHAVIORAL_CODELIKE.ABS_V has been configured to use the following implementation:
+      Work Library: WORK
+      Design Name:  ABS_VAL
+      Architecture Name: BEHAVIORAL_CODELIKE
+Presto compilation completed successfully.
+Elaborated 1 design.
+Current design is now 'sfu'.
+Information: Building the design 'ABS_VAL' instantiated from design 'sfu' with
+	the parameters "N=32". (HDL-193)
+Presto compilation completed successfully.
+Warning: Creating virtual clock named 'clk' with no sources. (UID-348)
+Writing ddc file '../sfu_Behavioral_codelike/sfu_Behavioral_codelike.ddc'.
+Information: Annotated 'cell' delays are assumed to include load delay. (UID-282)
+Information: Writing timing information to file '/home/lp20.28/Desktop/abs_test/special_unit/sfu_Behavioral_codelike/sfu_Behavioral_codelike.sdf'. (WT-3)
+Writing verilog file '/home/lp20.28/Desktop/abs_test/special_unit/sfu_Behavioral_codelike/sfu_netlist_Behavioral_codelike.v'.
+Removing design 'sfu'

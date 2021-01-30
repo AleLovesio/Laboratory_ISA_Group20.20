@@ -1,0 +1,5 @@
+set OPTYPE sfu
+
+set path [string trim [pwd] /syn]
+
+source syn_com.scr > ../log_syn_$OPTYPE.txt 

@@ -1,0 +1,25 @@
+set arch_list "UltraBehavioral Behavioral Behavioral_codelike"
+analyze -library WORK -format vhdl {../abs_val.vhd ../sfu.vhd}	
+set power_preserve_rtl_hier_names true
+
+
+foreach index $arch_list {
+	file mkdir ../${OPTYPE}_$index
+	echo $index
+	elaborate $OPTYPE -architecture $index -library WORK
+	create_clock -name "clk" -period 10
+	set OLOAD [load_of NangateOpenCellLibrary/BUF_X4/A]
+	set_load $OLOAD [all_outputs]
+	uniquify
+	compile > ../${OPTYPE}_$index/${OPTYPE}_${index}_compile.txt
+	check_design > ../${OPTYPE}_$index/${OPTYPE}_${index}_problems.txt
+	write -hierarchy -format ddc -output ../${OPTYPE}_$index/${OPTYPE}_$index.ddc
+	report_timing > ../${OPTYPE}_$index/timing_report_${OPTYPE}_$index.txt
+	report_area > ../${OPTYPE}_$index/area_report_${OPTYPE}_$index.txt
+	ungroup -all -flatten  
+	change_names -hierarchy -rules verilog
+	write_sdf ../${OPTYPE}_$index/${OPTYPE}_$index.sdf
+	write_file -f verilog -hierarchy -output ../${OPTYPE}_$index/${OPTYPE}_netlist_$index.v   
+	remove_design -designs
+	
+}

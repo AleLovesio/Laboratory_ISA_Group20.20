@@ -1,0 +1,10 @@
+foreach index $arch_list {
+	read_ddc ../${OPTYPE}_$index/${OPTYPE}_$index.ddc
+	create_clock -name "clk" -period 10
+	read_saif -input ../${OPTYPE}_$index/${OPTYPE}_$index.saif -instance tb_sfu/UUT -unit_base ns -scale 1
+	report_power -net -cell -include_input_nets -hier > ../${OPTYPE}_$index/power_report_${OPTYPE}_$index.txt
+	remove_design -designs
+}
+
+unset -nocomplain arch_list OPTYPE
+

@@ -1,0 +1,26 @@
+analyze -f vhdl -lib WORK {../alu/adder.vhd ../alu/adder_subtractor.vhd ../alu/slt_comparator.vhd ../riscv/imm_gen.vhd ../alu/xor_op.vhd ../alu/andi_op.vhd ../alu/imm_arith_rshift.vhd ../alu/alu_b.vhd ../alu/alu_cu.vhd ../riscv/mux2to1.vhd ../riscv/mux3to1.vhd ../riscv/mux4to1.vhd ../riscv/register_1bit.vhd ../riscv/generic_register.vhd ../riscv/register_file.vhd ../riscv/shift_left_1.vhd ../riscv/fwd_unit.vhd ../riscv/hazard_unit.vhd ../riscv/control_unit.vhd} 
+analyze -f vhdl -lib WORK ../riscv/riscv.vhd
+
+set power_preserve_rtl_hier_names true
+elaborate riscv -arch Structural -lib WORK > ./reports/elaborate_v2.txt
+uniquify
+link
+
+create_clock -name MY_CLK -period 20 CLK
+set_dont_touch_network MY_CLK
+set_clock_uncertainty 0.07 [get_clocks MY_CLK]
+set_input_delay 0.5 -max -clock MY_CLK [remove_from_collection [all_inputs] CLK]
+set_output_delay 0.5 -max -clock MY_CLK [all_outputs]
+set OLOAD [load_of NangateOpenCellLibrary/BUF_X4/A]
+set_load $OLOAD [all_outputs]
+
+ungroup -all -flatten
+compile > ./reports/compile_v2.txt
+report_timing > ./reports/timing_v2.txt
+report_area > ./reports/area_v2.txt
+
+change_names -hierarchy -rules verilog 
+write_sdf ../netlist/riscv_v2.sdf 
+write -f verilog -hierarchy -output ../netlist/riscv_v2.v
+write_sdc ../netlist/riscv_v2.sdc
+write -hierarchy -format ddc -output ./riscv_v2.ddc
