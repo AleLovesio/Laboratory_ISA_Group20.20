@@ -75,5 +75,6 @@ This folder contains multiple folders along with the report in pdf format. These
 			It also includes the tcl scripts used for the placing and routing, as well as a sim folder used for the
 			simulation of the obtained netlist and delay file. This sim folder, similarly to the previously described
 			sim folder contains a forward_postroute.do Modelsim script file and the text file for the memories (data
-			and instruction) initialization.
+			and instruction) initialization. The img folder inside the innovus folder contains the captured screenshots
+			of the three available views of the layout from Innovus.
 			
