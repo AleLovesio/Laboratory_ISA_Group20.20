@@ -6,7 +6,7 @@ This folder contains multiple folders along with the report in pdf format. These
 	-Dadda:
 	-FP:
 		Each of these folders is dedicated to a part of the assignment. The Sum folder 
-		is dedicated to the first part where a simple adder is tested in multipler ways.
+		is dedicated to the first part where a simple adder is tested in multiple ways.
 		The Dadda folder is dedicated to the testing of the MBE Dadda Multiplier.
 		The FP folder is dedicated to the testing of the full Floating Point Multiplier
 		All three folders have the same structure inside with the following folders:
